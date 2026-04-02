@@ -1,5 +1,5 @@
 # Rapport
 
 ## Binome :
-* Nom prénom
-* Nom prénom
+* Douvre Alban
+* Bretet Milo
