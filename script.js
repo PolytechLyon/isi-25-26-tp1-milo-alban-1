@@ -99,9 +99,7 @@ document.addEventListener("DOMContentLoaded", () => {
         confirmEdit();
     });
     editInput.addEventListener("keydown", (event) => {
-        if (event.key === "Enter") {
-            confirmEdit();
-        }
+        event.key === "Enter" && confirmEdit();
     });
 
     cancelButton.addEventListener("click", () => {
@@ -110,9 +108,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     newTaskAdd.addEventListener("click", () => addItem());
     newTaskContent.addEventListener("keydown", (event) => {
-        if (event.key === "Enter") {
-            addItem();
-        }
+        event.key === "Enter" && addItem();
     });
 
     renderTasks();
